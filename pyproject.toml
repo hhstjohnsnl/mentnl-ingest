@@ -12,6 +12,8 @@ fastapi = {extras = ["all"], version = "^0.79.0"}
 httpx = "^0.23.0"
 python-dotenv = "^0.20.0"
 google-cloud-firestore = "^2.6.0"
+typer = {extras = ["all"], version = "^0.6.1"}
+dask = "^2022.7.0"
 
 
 [build-system]
